@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #eee;
+    background-color: #121212;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: #1a1a1a;
+}
+
+.hero-banner h1 {
+    font-size: 3em;
+    color: #ff4c4c;
+}
+
+.hero-banner p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.subscribe-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #ff4c4c;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#about, #featured-video, #videos, #merch, #contact {
+    background: #222;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#featured-video iframe, .video-gallery iframe {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.merch-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #ff4c4c;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background: #ff4c4c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links a {
+    color: #ff4c4c;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.5s ease-in-out;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.logo {
+    width: 120px;        /* Adjust the size as needed */
+    height: 120px;       /* Make sure width and height are the same for a perfect circle */
+    border-radius: 50%;  /* This makes the image circular */
+    border: 4px solid #ff4c4c; /* Optional: Add a border around the logo to match your theme */
+    margin-bottom: 20px; /* Space between logo and header text */
+}
